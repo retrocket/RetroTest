@@ -39,9 +39,9 @@ Bu ürünler üretim bandının farklı noktalarından veya aynı noktalarından
       -Herhangi bir bantta belirlenen tarih aralığında kaç ürün işlenmiş listeleyiniz.
 
 ### Laravel Yetenek Beklentileri
--Tüm modeller için factory oluşturun. İlişkisel factory kullanımı + puan getirecektir.
--Tüm modeller için resource ve collection oluşturun. İlişkisel çağırımlar + puan getirecektir.
--Tüm modeller için doğru migration deklarasyonlarını yapınız. Foreign idlere dikkat ediniz.
--Tüm http post|put|delete işlemleri için Request classları oluşturunuz ve doğru kuralları uygulayınız. İhtiyacınız olan Rule'ları yeni class'lar açarak yazınız.
--Her bir model arasında "doğrudan" ilişki kurunuz ve methodlarını yazınız. (Doğrudan:Örneğin bir siparişe ait ürün çeşitlerini tek methodda listeleyiniz.)
--Gerekliyse modellerde scope, observer, ayrıca servis classları kullanınız.
+    -Tüm modeller için factory oluşturun. İlişkisel factory kullanımı + puan getirecektir.
+    -Tüm modeller için resource ve collection oluşturun. İlişkisel çağırımlar + puan getirecektir.
+    -Tüm modeller için doğru migration deklarasyonlarını yapınız. Foreign idlere dikkat ediniz.
+    -Tüm http post|put|delete işlemleri için Request classları oluşturunuz ve doğru kuralları uygulayınız. İhtiyacınız olan Rule'ları yeni class'lar açarak yazınız.
+    -Her bir model arasında "doğrudan" ilişki kurunuz ve methodlarını yazınız. (Doğrudan:Örneğin bir siparişe ait ürün çeşitlerini tek methodda listeleyiniz.)
+    -Gerekliyse modellerde scope, observer, ayrıca servis classları kullanınız.
